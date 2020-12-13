@@ -20,14 +20,9 @@ header::after{
     clear: both;
 }
 
-
-.footer{
-    background-color: black;
-    color: white;
-    border-top-right-radius:1rem ;
-    border-top-left-radius:1rem ;
+.container2{
+    
 }
-
 
 .container{
     width: 80%;
@@ -71,3 +66,40 @@ nav a::before{
 nav a:hover::before{
     width: 100%;
 }
+.footer {
+    background-color: black;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    border-radius: 1rem;
+  }
+  
+  .footer .link {
+    color: white;
+  }
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: 101%;
+    
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }
+  .upper {
+    margin-top: 100px;
+  }
+  .list-non-bullet{
+      list-style:none;
+  }
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  .last-line{
+      padding-left: 35rem;
+  }
+  .api-color{
+      color: coral;
+  }
