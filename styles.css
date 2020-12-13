@@ -4,6 +4,70 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
 }
+.container .headline{
+    padding-left: 30rem;
+    font-size:30px;
+    margin-top: 0.5rem;
+} 
+header{
+    background: aquamarine;
+    height: 60px;
+    border-radius: 1rem;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
 .footer{
     background-color: black;
+    color: white;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+div{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+
+}
+nav a:hover::before{
+    width: 100%;
 }
