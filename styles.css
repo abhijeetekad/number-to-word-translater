@@ -5,7 +5,9 @@
       background-color: lightblue;
     }
   }
-
+@-ms-viewport{
+    width: auto;
+  }
 body{
     font-family: 'Noto Sans JP', sans-serif;
 }
