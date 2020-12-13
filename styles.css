@@ -5,11 +5,10 @@
       background-color: lightblue;
     }
   }
-@-ms-viewport{
-    width: auto;
-  }
+
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    
 }
 .container .headline{
     padding-left: 30rem;
