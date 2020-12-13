@@ -10,7 +10,8 @@ body{
     margin-top: 0.5rem;
 } 
 header{
-    background: aquamarine;
+    background: #00cccc;
+    left: 0;
     height: 60px;
     border-radius: 1rem;
 }
@@ -63,16 +64,20 @@ nav a:hover::before{
     width: 100%;
 }
 .footer {
-    background-color: black;
+    background-color:#99bbff;
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: black;
     margin-top: 100px;
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
   
   .footer .link {
-    color: white;
+    color: #b30086;
   }
   .footer .footer-header {
     font-weight: bold;
@@ -97,6 +102,6 @@ nav a:hover::before{
       padding-left: 35rem;
   }
   .api-color{
-      color: coral;
+      color: #b30086;
   }
   

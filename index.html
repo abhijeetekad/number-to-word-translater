@@ -6,25 +6,63 @@
     <title> Numbers to words translater </title>
     <link href="styles.css" rel="stylesheet" />
     <style>
-
+        body{
+            background-color: #e6f2ff;
+        }
+        .numbersline{
+            margin-left: 20%;
+        }
+        #btn-translate{
+            margin-left: 40%;
+            font-size: 20px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        #txt-input{
+            margin-left: 25%;
+            height: 10vh;
+            width: 45%;
+            height: 70px;
+            padding: 1rem;
+        }
+        .middle-line{
+            margin-left: 42%;
+        }
+        #output {
+            display: block;
+            width: 40%;
+            height: 2vh;
+            border: 1px solid black;
+            background-color: white;
+            margin: 1rem;
+            padding: 2.5rem ;
+            margin-left: 25%;
+        }
     </style>
 </head>
 <body >
     <header>
         <div class="container">
-            <div class="headline">Numbers translator</div>
+            <div class="headline">Numbers Translator</div>
             <nav>
                 <ul>
-                    <li><a href="#">Main Website</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">blogs</a></li>
+                    <li><a href="https://abhijeetekad-portfolio.netlify.app/">Main Website</a></li>
+                    <li><a href="https://abhijeetekad-portfolio.netlify.app/projects.html">Projects</a></li>
+                    <li><a href="https://abhijeetekad-portfolio.netlify.app/blogs.html">blogs</a></li>
                 </ul>
             </nav>
                 
         </div>
         
     </header>
-    <h1>Numbers translator</h1>
+    <h2 class="numbersline" style="color: red;"> Input a number and this will convert them to the spelled out text.</h2>
+    <textarea id="txt-input" placeholder="Enter a number"></textarea>
+    
+    <button id="btn-translate">Translate</button>
+    
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
+
     <footer class="footer">
         <h2 class="footer-header">Social Media links</h2>
     
