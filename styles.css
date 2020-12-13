@@ -20,10 +20,6 @@ header::after{
     clear: both;
 }
 
-.container2{
-    
-}
-
 .container{
     width: 80%;
     margin: 0 auto;
@@ -103,3 +99,4 @@ nav a:hover::before{
   .api-color{
       color: coral;
   }
+  
