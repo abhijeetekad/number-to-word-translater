@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
-@media only screen and (orientation: landscape) {
-    body {
-      background-color: lightblue;
-    }
-  }
+
 
 body{
     font-family: 'Noto Sans JP', sans-serif;
@@ -14,12 +10,15 @@ body{
     padding-left: 30rem;
     font-size:30px;
     margin-top: 0.5rem;
+    text-align: center;
+    display:block;
 } 
 header{
     background: #00cccc;
     left: 0;
     height: 60px;
     border-radius: 1rem;
+    display: flex;
 }
 header::after{
     content: '';
@@ -42,6 +41,7 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 nav li{
     display: inline-block;
@@ -75,12 +75,13 @@ nav a:hover::before{
     padding: 2rem 1rem;
     text-align: center;
     color: black;
-    margin-top: 100px;
+    
     border-top-left-radius: 1rem;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    
   }
   
   .footer .link {
@@ -107,6 +108,7 @@ nav a:hover::before{
   }
   .last-line{
       padding-left: 35rem;
+      display: flex;
   }
   .api-color{
       color: #b30086;
